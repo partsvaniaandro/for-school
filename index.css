@@ -1,0 +1,162 @@
+
+body{
+    margin: 0;
+    background-color:#f0f0f0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    height: 600px;
+}
+.halfHeader{
+    background:url(bgheader.png);
+    background-size:cover;
+    height: 100%;
+}
+.navbar{
+    background-color: #0047AB;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+#logoImg{
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.socLinks{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 90px;
+}
+.navLink a{
+    color: #4DD0E1;
+    transition: 0.2s ease;
+}
+.navLink a:hover{
+    color: white;
+}
+.compName p{
+    font-size: 35px;
+}
+.compName{
+    text-align: center;
+}
+.leftSide{
+    margin-left: 30px;
+}
+.compInfo1{
+    height: 200px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+}
+.compInfo1 p{
+    text-align: center;
+    line-height: 1.7;
+}
+.compInfo2{
+    height: 100px;
+    width: 33%;
+    color: black;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    margin: 20px;
+}
+.compInfo2 p{
+    text-align: center;
+    line-height: 1.7;
+}
+.compInfo3{
+    height: 100px;
+    width: 33%;
+    color: black;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    margin: 20px;
+}
+.compInfo3 p{
+    text-align: center;
+    line-height: 1.7;
+}
+.compInfos23{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E6E6E6;
+    border-bottom: solid 1px black;
+}
+.compImg1{
+    margin: 20px;
+}
+.selection{
+    width: 100%;
+    height: 650px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.selCards{
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #CCCCCC, #B3B3B3);;
+    height: 280px;
+    width: 300px;
+    transition: 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.selCards:hover{
+    transform: scale(1.2);
+}
+.selGif{
+    height: 60%;
+    width: 90%;
+}
+.selName{
+    height: 25%;
+    width: 100%;
+}
+.selName p{
+    font-size: 25px;
+}
+.selLink{
+    border-radius: 5px;
+    height: 10%;
+    width: 90%;
+    background-color: darkgray;
+    transition: 0.3s ease;
+}
+.selLink:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.selGif video{
+    width: 100%;
+    height: 111%;
+    object-fit: contain;
+}
+
+
