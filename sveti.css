@@ -17,7 +17,7 @@ body{
     height: 600px;
 }
 .halfHeader{
-    background:url(/svetiIMG/svetiHeader.png);
+    background:url(svetiHeader.png);
     background-size:cover;
     background-position: center;
     height: 100%;

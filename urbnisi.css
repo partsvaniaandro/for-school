@@ -17,7 +17,7 @@ body{
     height: 600px;
 }
 .halfHeader{
-    background:url(urbnisiIMG/urbnisiHeader.png);
+    background:url(urbnisiHeader.png);
     background-size:cover;
     background-position: center;
     height: 100%;
