@@ -1,13 +1,14 @@
 
 body{
     margin: 0;
-    background-color:#f0f0f0;
+    background: linear-gradient(to bottom, #697565, #3C3D37);
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: #D3D3D3;
     width: 100%;
+    transition: filter 0.3s ease;
 }
 .main{
     display: flex;
@@ -21,9 +22,10 @@ body{
     background:url(bgheader.png);
     background-size:cover;
     height: 100%;
+    filter: brightness(0.9);
 }
 .navbar{
-    background-color: #0047AB;
+    background-color: #1E201E;
     height: 15%;
     display: flex;
     justify-content: space-between;
@@ -47,12 +49,13 @@ a{
     margin-right: 90px;
 }
 .navLink a{
-    color: #4DD0E1;
+    color: #ECDFCC;
     transition: 0.2s ease;
 }
 .navLink a:hover{
     color: white;
 }
+/*nav*/
 .compName p{
     font-size: 35px;
 }
@@ -65,9 +68,7 @@ a{
 .compInfo1{
     height: 200px;
     width: 100%;
-    color: black;
     font-size: 20px;
-    border-bottom: solid 1px black;
 }
 .compInfo1 p{
     text-align: center;
@@ -75,49 +76,49 @@ a{
 }
 .compInfo2{
     height: 100px;
-    width: 33%;
-    color: black;
+    width: 80%;
     font-size: 20px;
-    border-bottom: solid 1px black;
     margin: 20px;
 }
 .compInfo2 p{
     text-align: center;
     line-height: 1.7;
 }
-.compInfo3{
-    height: 100px;
-    width: 33%;
-    color: black;
-    font-size: 20px;
-    border-bottom: solid 1px black;
-    margin: 20px;
-}
-.compInfo3 p{
-    text-align: center;
-    line-height: 1.7;
-}
 .compInfos23{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    background-color: #E6E6E6;
-    border-bottom: solid 1px black;
 }
 .compImg1{
-    margin: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.compImg1 img{
+    width: 23%;
+    height: 400px;
+    margin: 1px;
+    transition: 0.3s ease;
+    filter: brightness(0.7);
+    border-radius: 5px;
+}
+.compImg1 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.7);
+    filter: brightness(1);
 }
 .selection{
     width: 100%;
     height: 650px;
-    background-color: #D9D9D9;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .selCards{
     margin-top: 100px;
-    background: linear-gradient(to bottom, #CCCCCC, #B3B3B3);;
+    background: linear-gradient(to bottom, #7A8674, #697565);
     height: 280px;
     width: 300px;
     transition: 0.3s ease;
@@ -126,10 +127,11 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius:5px;
 }
 .selCards:hover{
     transform: scale(1.2);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.7);
 }
 .selGif{
     height: 60%;

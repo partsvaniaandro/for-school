@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #697565, #3C3D37);
+    color: #D3D3D3;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    height: 600px;
+}
+.halfHeader{
+    background:url(/bolnisiIMG/bolnisiHeader.png);
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+}
+.navbar{
+    background-color: #1E201E;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+#logoImg{
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.socLinks{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 90px;
+}
+.navLink a{
+    color: #ECDFCC;
+    transition: 0.2s ease;
+}
+.navLink a:hover{
+    color: white;
+}
+.infoBox{
+    width: 70%;
+    height: 300px;
+    background: linear-gradient(to bottom, #7A8674, #697565);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease;
+}
+.infoBox:hover{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+.workInfo{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pageName{
+    font-size: 40px;
+    text-align: center;
+}
+.pageInfo{
+    text-align: center;
+    font-size: 20px;
+}
+.infoIMGS{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.infoIMGS img{
+    width: 25%;
+    height: 350px;
+    filter: brightness(0.7);
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+.infoIMGS img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.7);
+    filter: brightness(1);
+}
+.infoChurch{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.infoChurch1{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    background-color: #697565;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.infoChurch1:hover{
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+}
+.infoChurch2{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: #697565;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.infoChurch2:hover{
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+}
+.infoChurch2 img{
+    margin-left: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.infoChurch2 img:hover{
+    transform: scale(1.1);
+}
+#mainInfo1{
+    font-size: 35px;
+}
+.infoChurch3{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: #697565;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.infoChurch3:hover{
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+}
+.infoChurch3 img{
+    margin-left: 60px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#mainInfo2{
+    font-size: 35px;
+}
